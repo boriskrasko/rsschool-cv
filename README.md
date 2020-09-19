@@ -1,1 +1,2 @@
 # rsschool-cv
+https://boriskrasko.github.io/rsschool-cv/
