@@ -21,7 +21,7 @@ body {
 
 header {
  width: 100%;
- background-color: rgba(35, 69, 184, 0.85);
+ background-color: #00AFDB99;
  border-bottom: 4px solid rgb(20, 39, 104);
 }
 
@@ -127,7 +127,7 @@ li {
 
 footer {
   padding: 20px;
-  background-color: rgba(35, 69, 184, 0.85);
+  background-color: #00AFDB99;
   border-top: 4px solid rgb(20, 39, 104);
   text-align: center;
 }
