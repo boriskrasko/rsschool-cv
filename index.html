@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+   <head>
+      <meta charset="utf-8">
+      <title>CV</title>
+      <link rel="stylesheet" href="style.css">
+      <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+   </head>
+   <body>
+      <header>
+         <!--<nav>
+            <ul>
+              <li><a href="#1">Contact</a></li>
+              <li><a href="#2">Summary</a></li>
+              <li><a href="#3">Skills</a></li>
+              <li><a href="#4">Sample Code</a></li>
+              <li><a href="#5">Experience</a></li>
+              <li><a href="#6">Education</a></li>
+              <li><a href="#7">English</a></li>
+            </ul>
+            </nav>-->
+         <div class="photo">
+            <img class="avatar" src="avatar.png" alt="avatar">
+         </div>
+         <div class="title">
+            <span>Junior Frontend Developer</span>
+            <h1>Boris<br>Krasko</h1>
+         </div>
+      </header>
+      <main>
+         <section style="border:none" id="1">
+            <h2>Contact info: </h2>
+            <ul>
+               <li>Phone: <a href="tel:+48884317340">+48884317340</a></li>
+               <li>E-mail: <a href="mailto:boris.krasko@live.com?subject=feedback">boris.krasko@live.com</a></li>
+               <li>Website: <a href="https://ihelper.by">iHelper.by</a></li>
+               <li>GitHub: <a href="https://github.com/boriskrasko">boriskrasko</a></li>
+               <li>LinkedIn: <a href="https://www.linkedin.com/in/boris-krasko-a89959195/">boriskrasko</a></li>
+            </ul>
+         </section>
+         <section id="2">
+            <h2>Summary: </h2>
+            <p><b>Hi there!</b> I’m a final-year student in <strong>Information Technology</strong>. My main specialization is Local Area Network Design. Now I am deep in the study of front-end development. I like the process of creating website interfaces. And I want to develop in this direction. <b>Web development is my passion</b>. I already have some experience in front-end. I have built several small projects for local and foreign clients, and I continue to develop my skills in creating websites using modern <strong>CSS</strong> preprocessors, also <strong>JavaScript</strong> libraries and frameworks.
+               Now I am looking for opportunity to realize my skills and get new experience.
+            </p>
+         </section>
+         <section id="3">
+            <h2>Skills: </h2>
+            <ul>
+               <li>Git</li>
+               <li>HTML5, CSS3</li>
+               <li>Basic ECMAScript</li>
+               <li>Basic Vue.js</li>
+               <li>Bootstrap4</li>
+               <li>Mobile First Design</li>
+            </ul>
+         </section>
+         <section id="4">
+            <h2>Sample code: </h2>
+            <!--<img width="100%" src="sample-code.png" alt="sample code">-->
+            <pre><code>const modal = document.getElementById('myModal');
+        let currentImage = document.querySelectorAll('.gallery_iner img');
+        let thumbs	= document.querySelectorAll('.gallery_items div');
+        let img = document.querySelector('.gallery_iner');
+        let modalImg = document.getElementById('img');
+
+        [].forEach.call(thumbs, function(thumb, n) {
+        		thumb.index = n;
+        		thumb.addEventListener('click', function() {
+        			modal.style.display = 'block';
+          			modalImg.src = currentImage[n].src;
+        		})
+        	});
+
+        let modalContent = document.getElementsByClassName('modal-content')[0];
+
+        modalContent.onclick = function() {
+          modal.style.display = "none";
+        };</code></pre>
+         </section>
+         <section id="5">
+            <h2>Experience: </h2>
+            <p>I developed web pages such companies as RTV EURO and ING Bank for "Absolvent Talent Days 2019" in Warsaw.  I used @media queries for mobile, hover and parallax effects, basic JavaScript for validation of forms . Sample code can be viewed on the <a href="https://github.com/boriskrasko">GitHub</a>.<br>
+               As freelancer I added an auto <a href="https://ihelper.by">dark mode</a> to some web pages using JavaScript.
+               I have optimized some client sites for mobile with Bootstrap 4. I have also used my experience to get high results in Google Page Speed and Gmetrix for early created projects.
+            </p>
+         </section>
+         <section id="6">
+            <h2>Education: </h2>
+            <ul>
+               <li>
+                  <strong>University:</strong>
+                  <ul>
+                     <li>MITSO <b>"Logistics"</b> <i>(2012 - 2017)</i></li>
+                  </ul>
+               </li>
+               <li>
+                  <strong>Additional education:</strong>
+                  <ul>
+                     <li>Cosinus <b>"IT specialist"</b> <i>(2019 - 2021)</i></li>
+                  </ul>
+               </li>
+               <li>
+                  <strong>NetAcad:</strong>
+                  <ul>
+                     <li>CISCO "IT Essentials: PC Hardware and Software"</li>
+                     <li>CISCO "Networking Essentials 2019"</li>
+                     <li>CISCO "C_CLA_2020"</li>
+                  </ul>
+               </li>
+               <li>
+                  <strong>Seminars:</strong>
+                  <ul>
+                     <li>Microsoft IoT <i>(Warsaw, November 2019)</i></li>
+                  </ul>
+               </li>
+            </ul>
+         </section>
+         <section id="7">
+            <h2>English:</h2>
+            <p>A2</p>
+         </section>
+      </main>
+      <footer>
+         <span><i>Boris Krasko for RS School 2020</i></span>
+      </footer>
+   </body>
+</html>

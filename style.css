@@ -1,0 +1,158 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #46f;
+}
+
+body {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1200px;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  background-image: url(_bg.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+header {
+ width: 100%;
+ background-color: rgba(35, 69, 184, 0.85);
+ border-bottom: 4px solid rgb(20, 39, 104);
+}
+
+nav ul li {
+  display: inline-block;
+  padding: 20px;
+}
+
+nav ul li a {
+  color: #cb7;
+  font-size: 20px;
+}
+nav ul li a:hover {
+  color: #eee;
+}
+
+h1 {
+  color: #FFF;
+  font-weight: bold;
+  font-size: 72px;
+  line-height: 75px;
+  /* identical to box height */
+  letter-spacing: 4.5px;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+h2 {
+  color: #223;
+  font-weight: bold;
+  line-height: 75px;
+  /* identical to box height */
+  letter-spacing: 2.5px;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+p, li, span, code {
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 145%;
+  /* or 25px */
+  text-align: left;
+  color: #444;
+}
+
+.photo {
+  width: 320px;
+  float: left;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.title {
+  width: 320px;
+  display: inline-block;
+  margin-left: 20%;
+
+}
+
+/* Title job ---  Junior Frontend Developer */
+.title span {
+  color: #FFF;
+  font-weight: lighter;
+  font-size: 20px;
+  line-height: 75px;
+  /* identical to box height */
+  letter-spacing: 4.5px;
+  text-transform: uppercase;
+  white-space: nowrap;
+
+}
+.avatar {
+  position: relative;
+  margin-left: 40%;
+  margin-top: 10%;
+  border-radius: 50%;
+  width: 250px;
+  height: 250px;
+  z-index: 1;
+}
+
+main {
+  border-top: 4px solid rgb(106, 106, 106);
+  border-top: 4px solid rgb(106, 106, 106);
+}
+
+section {
+  position: relative;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 20px;
+  padding: 40px;
+  border-top: 5px solid rgb(106, 106, 106);
+  background-image: url(_bg.jpg);
+  background-size: cover;
+}
+
+li {
+  display: block;
+  padding: 5px;
+}
+
+footer {
+  padding: 20px;
+  background-color: rgba(35, 69, 184, 0.85);
+  border-top: 4px solid rgb(20, 39, 104);
+  text-align: center;
+}
+
+footer span{
+  color:#fff;
+}
+
+@media only screen and (max-width: 960px) {
+  code {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 780px) {
+  code {
+    font-size: 12px;
+  }
+  .title span {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  code {
+    font-size: 9px;
+  }
+}
