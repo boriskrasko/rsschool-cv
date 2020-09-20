@@ -14,7 +14,7 @@ body {
   max-width: 1200px;
   font-family: 'Roboto', sans-serif;
   font-style: normal;
-  background-image: url(_bg.jpg);
+  background-image: url(https://ihelper.by/img/_bg.jpg);
   background-size: contain;
   background-repeat: no-repeat;
 }
@@ -116,7 +116,7 @@ section {
   margin-top: 20px;
   padding: 40px;
   border-top: 5px solid rgb(106, 106, 106);
-  background-image: url(_bg.jpg);
+  background-image: url(https://ihelper.by/img/_bg.jpg);
   background-size: cover;
 }
 
