@@ -25,6 +25,11 @@ header {
  border-bottom: 4px solid rgb(20, 39, 104);
 }
 
+header:hover {
+  background: #009CC2EE;
+  transition: .2s;
+}
+
 nav ul li {
   display: inline-block;
   padding: 20px;
@@ -130,6 +135,11 @@ footer {
   background-color: #00AFDBEE;
   border-top: 4px solid rgb(20, 39, 104);
   text-align: center;
+}
+
+footer:hover {
+  background: #009CC2EE;
+  transition: .2s;
 }
 
 footer span{
