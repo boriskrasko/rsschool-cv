@@ -15,7 +15,7 @@ Now I am looking for opportunity to realize my skills and get new experience.
 
 ## SKILLS
 * Git
-* HTML5, CSS3
+* HTML5, CSS3, Sass
 * Basic ECMAScript
 * Basic Vue.js
 * Bootstrap4
