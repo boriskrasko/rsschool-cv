@@ -125,6 +125,10 @@ section {
   background-size: cover;
 }
 
+#4 {
+  background: rgb(246, 248, 250);
+}
+
 li {
   display: block;
   padding: 5px;
